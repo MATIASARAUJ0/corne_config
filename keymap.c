@@ -93,9 +93,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //,-----------------------------------------.                ,-----------------------------------------.
     QK_BOOT,RGBRST, KC_NO, KC_NO, KC_NO, KC_NO,                KC_NO, KC_NO, KC_NO, KC_NO, KC_NO, KC_NO,
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    RGB_TOG,RGB_HUI,RGB_SAI,RGB_VAI,RGB_SPI,KC_NO,               KC_BRIU, KC_MPRV,KC_MPLY, KC_MNXT, KC_NO, KC_NO,
+    RM_TOGG,RM_HUEU,RM_SATU,RM_VALU,RM_SPDU,KC_NO,               KC_BRIU, KC_MPRV,KC_MPLY, KC_MNXT, KC_NO, KC_NO,
   //|------+------+------+------+------+------|                |------+------+------+------+------+------|
-    RGB_MOD,RGB_HUD,RGB_SAD,RGB_VAD,RGB_SPD,KC_NO,               KC_BRID, KC_VOLD, KC_MUTE, KC_VOLU, KC_NO, RGB_RMOD,
+    RM_NEXT,RM_HUED,RM_SATD,RM_VALD,RM_SPDD,KC_NO,               KC_BRID, KC_VOLD, KC_MUTE, KC_VOLU, KC_NO, RM_PREV,
   //|------+------+------+------+------+------+------|  |------+------+------+------+------+------+------|
                                 KC_LGUI, LOWER, KC_SPC,  KC_ENT, RAISE, KC_LALT
                               //`--------------------'  `--------------------'
